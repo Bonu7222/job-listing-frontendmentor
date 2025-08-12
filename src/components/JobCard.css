@@ -1,0 +1,104 @@
+/* src/components/JobCard.css */
+.job-card {
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px -7px rgba(92, 165, 165, 0.5);
+  padding: 32px 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-left: 5px solid transparent;
+}
+
+.job-card.featured {
+  border-left-color: var(--primary);
+}
+
+.job-logo {
+  margin-right: 24px;
+}
+
+.job-logo img {
+  width: 88px;
+  height: 88px;
+}
+
+.job-details {
+  flex: 1;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.company-name {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 16px;
+}
+
+.new-badge, .featured-badge {
+  color: var(--white);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 6px 8px 4px;
+  border-radius: 12px;
+  margin-right: 8px;
+}
+
+.new-badge {
+  background-color: var(--primary);
+}
+
+.featured-badge {
+  background-color: var(--dark);
+}
+
+.position {
+  font-size: 18px;
+  color: var(--dark);
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.position:hover {
+  color: var(--primary);
+}
+
+.job-meta {
+  display: flex;
+  color: var(--mid);
+  font-size: 15px;
+  gap: 12px;
+}
+
+.separator {
+  font-weight: 700;
+}
+
+.job-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.tag {
+  background-color: var(--primary-light);
+  color: var(--primary);
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.tag:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+

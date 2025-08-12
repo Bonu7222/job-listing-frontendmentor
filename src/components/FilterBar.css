@@ -1,0 +1,61 @@
+
+.filter-bar {
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px -7px rgba(92, 165, 165, 0.5);
+  padding: 20px 40px;
+  margin-top: -36px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.filter-tag {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-light);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.filter-text {
+  padding: 5px 10px;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 13px;
+}
+
+.remove-btn {
+  background-color: var(--primary);
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-btn:hover {
+  background-color: var(--dark);
+}
+
+.clear-btn {
+  background: none;
+  border: none;
+  color: var(--mid);
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}

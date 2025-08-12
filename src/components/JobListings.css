@@ -1,0 +1,6 @@
+/* src/components/JobListings.css */
+.job-listings {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

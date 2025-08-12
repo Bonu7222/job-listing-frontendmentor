@@ -1,0 +1,15 @@
+/* src/components/Header.css */
+.header {
+  background-color: var(--primary);
+  height: 156px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

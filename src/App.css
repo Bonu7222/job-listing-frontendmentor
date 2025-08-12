@@ -1,0 +1,35 @@
+/* src/App.css */
+:root {
+  --primary: #5CA5A5;
+  --primary-light: rgba(92, 165, 165, 0.1);
+  --dark: #2B3939;
+  --mid: #7C8F8F;
+  --light: #B7C4C4;
+  --white: #FFFFFF;
+  --background: #EFFAFA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1110px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
