@@ -1,4 +1,4 @@
-// src/components/RemoveIcon.jsx
+
 import React from 'react';
 
 const RemoveIcon = () => (

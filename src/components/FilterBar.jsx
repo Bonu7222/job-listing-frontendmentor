@@ -1,4 +1,4 @@
-// src/components/FilterBar.jsx
+
 import React from 'react';
 import RemoveIcon from './RemoveIcon';
 import './FilterBar.css';

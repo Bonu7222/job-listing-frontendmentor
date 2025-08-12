@@ -1,4 +1,4 @@
-// src/components/HeaderBackground.jsx
+
 import React from 'react';
 
 const HeaderBackground = () => (
