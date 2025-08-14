@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import FilterBar from './components/FilterBar';
-import JobListings from './components/JobListings';
+import Joblistings from './components/Joblistings';
 import jobsData from './data/jobsData';
 import './App.css';
 
