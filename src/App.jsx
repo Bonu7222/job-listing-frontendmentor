@@ -49,7 +49,7 @@ function App() {
             clearFilters={clearFilters} 
           />
         )}
-        <JobListings jobs={filteredJobs} addFilter={addFilter} />
+        <Joblistings jobs={filteredJobs} addFilter={addFilter} />
       </main>
     </div>
   );

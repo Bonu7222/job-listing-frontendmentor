@@ -3,7 +3,7 @@ import React from 'react';
 import JobCard from './JobCard';
 import './JobListings.css';
 
-const JobListings = ({ jobs, addFilter }) => {
+const Joblistings = ({ jobs, addFilter }) => {
   return (
     <div className="job-listings">
       {jobs.map(job => (
@@ -17,4 +17,4 @@ const JobListings = ({ jobs, addFilter }) => {
   );
 };
 
-export default JobListings;
+export default Joblistings;
